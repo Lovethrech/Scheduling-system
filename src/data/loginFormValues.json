@@ -1,0 +1,35 @@
+[
+    {
+        "id":"1",
+        "labelName": "Username",
+        "pattern": "^\\w{6,30}$",
+        "labelPositionPlacement": "50%",
+        "name": "username",
+        "errorMsg": "",
+        "type": "string",
+        "min":6,
+        "max": 30
+    },
+    {
+        "id": "2",
+        "labelName": "Password",
+        "pattern": "",
+        "labelPositionPlacement": "50%",
+        "name": "password",
+        "errorMsg": "",
+        "type": "password",
+        "min": 6,
+        "max": 20
+    },
+    {
+        "id": "3",
+        "labelName": "Auth. Code",
+        "pattern": "",
+        "labelPositionPlacement": "50%",
+        "name": "auth-code",
+        "errorMsg": "",
+        "type": "number",
+        "min": 6,
+        "max": 6
+    }
+]
